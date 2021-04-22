@@ -455,6 +455,25 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     }
   },
   "hooks" : [
@@ -465,7 +484,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 640371835.02114797,
-    "displayValue" : "Web-2-HW-JG-V2",
+    "displayValue" : "html hw 4:22",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-cafe",
     "iconImageWasSetByUser" : 0

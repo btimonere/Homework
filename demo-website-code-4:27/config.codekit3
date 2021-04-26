@@ -442,19 +442,17 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/layout\/styles.scss" : {
-      "aP" : 0,
+    "\/dev\/scss\/sections\/hero.css" : {
+      "aP" : 1,
       "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/scss\/layout\/styles.css",
-      "oF" : 2,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oAP" : "\/dev\/scss\/sections\/hero-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/dev\/scss\/sections\/hero.scss" : {
       "aP" : 0,
@@ -466,6 +464,20 @@
       "oA" : 0,
       "oAP" : "\/dev\/scss\/sections\/hero.css",
       "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/styles.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 2,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -498,7 +510,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 640371835.02114797,
-    "displayValue" : "html hw 4:22",
+    "displayValue" : "demo-website-code-4:27",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-cafe",
     "iconImageWasSetByUser" : 0

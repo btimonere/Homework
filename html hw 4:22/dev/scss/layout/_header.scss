@@ -5,7 +5,7 @@
      display: grid;
      @include sm {
          grid-template-areas: ". header .";
-         grid-template-columns: auto 576px auto ;
+         grid-template-columns: 16px auto 16px;
      }
 
      >div {

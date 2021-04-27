@@ -1,7 +1,7 @@
 /* =============
     Header
 ============= */
-header {
+header{
     display: grid;
     @include sm {
         grid-template-areas: ". header .";

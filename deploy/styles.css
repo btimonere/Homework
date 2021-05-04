@@ -597,6 +597,9 @@ footer > div {
     grid-area: new;
   }
 }
+#new > div h1 {
+  color: #637275;
+}
 @media (min-width: 768px) {
   #new > div ul {
     display: grid;

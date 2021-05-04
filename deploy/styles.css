@@ -405,6 +405,7 @@ header {
 }
 header > div {
   grid-area: header;
+  background-color: #2A3036;
 }
 
 /* =============
@@ -474,6 +475,11 @@ footer > div {
 @media (min-width: 1200px) and (min-width: 1200px) {
   #search > div form {
     grid-area: search-content;
+  }
+}
+@media (min-width: 1200px) {
+  #search > div form button {
+    background-color: #FFD205;
   }
 }
 

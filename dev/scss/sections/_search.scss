@@ -16,6 +16,9 @@
                 @include xl{
                     grid-area: search-content;
                 }
+                button{
+                    background-color: $electric;
+                }
             }
         }
     }

@@ -398,13 +398,13 @@ textarea {
 /* =============
     Header
 ============= */
-header {
-  background-color: #2A3036;
+.header {
+  background-color: yellow;
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". header .";
 }
-header > div {
+.header > div {
   grid-area: header;
 }
 

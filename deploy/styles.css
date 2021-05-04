@@ -399,13 +399,13 @@ textarea {
     Header
 ============= */
 header {
+  background-color: #2A3036;
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". header .";
 }
 header > div {
   grid-area: header;
-  background-color: #2A3036;
 }
 
 /* =============

@@ -211,6 +211,18 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
+    "\/deploy\/styles.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/styles-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/dev\/content\/hero-2.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -281,6 +293,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/scripts.html",
+      "oF" : 0
+    },
+    "\/dev\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/index.html",
       "oF" : 0
     },
     "\/dev\/index.kit" : {
@@ -525,6 +545,25 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     }
   },
   "hooks" : [

@@ -612,7 +612,7 @@ footer > div {
 @media (min-width: 1024px) {
   #new > div ul {
     grid-template-columns: repeat(6, 1fr);
-    grid-template-areas: "n1 n1 n2 n2 n3 n3" ". n4 n4 n5 n5 .";
+    grid-template-areas: "n1 n1 n1 n2 n3 n3" ". n4 n4 n5 n5 .";
   }
 }
 #new > div ul li img {
@@ -625,9 +625,6 @@ footer > div {
 }
 #new > div ul li section > div {
   grid-area: new-content;
-}
-#new > div ul #n1 {
-  background-color: #F8F9FA;
 }
 @media (min-width: 768px) {
   #new > div ul #n1 {

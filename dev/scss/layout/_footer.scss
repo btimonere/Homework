@@ -1,70 +1,87 @@
 /* =============
     Footer
 ============= */
-footer {
+/* =============
+    Footer
+============= */
+footer{
     background-color: $night-dark;
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". footer .";
 
-    @include xl {
+    @include xl{
         grid-template-columns: auto 1200px auto;
     }
-
-    >div {
+    >div{
         grid-area: footer;
 
-        @include md {
+        @include md{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-areas: "f1 f2"
-                "f1 f3";
+            "f1 f3";
             gap: 16px;
         }
 
-        @include lg {
+        @include lg{
             grid-template-columns: repeat(3, 1fr);
             grid-template-areas: "f1 f2 f3";
         }
 
-        #f1 {
-            @include md {
+        #f1{
+            @include md{
                 grid-area: f1;
             }
-
-            h1 {
-                color: white;
+            h1{
+                color: $frost;
             }
 
-            h2 {
-                color: white;
-            }
-
-            address {
+           section{
+               h2{
+                color: $frost;
+               }
+               address{
                 color: $frost-dark;
+               }
+           }
+
+           section{
+               h2{
+                color: $frost;
+               }
+               Massachusetts{
+                color: $frost-dark;
+               }
+           }
+           section{
+            h2{
+             color: $frost;
+            }
+            nova{
+             color: $frost-dark;
             }
         }
+        }
 
-        #f2 {
-            @include md {
+        #f2{
+            @include md{
                 grid-area: f2;
             }
-
-            h2 {
-                color: white;
+            h1{
+                color: $frost;
             }
-
-            button {
-                background-color: $electric;
+            input{
+                color: $night-dark;
             }
         }
 
-        #f3 {
-            @include md {
+        #f3{
+            @include md{
                 grid-area: f3;
             }
             h1{
-                color: white;
+                color: $frost;
             }
         }
     }

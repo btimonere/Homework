@@ -411,6 +411,9 @@ header > div {
 /* =============
     Footer
 ============= */
+/* =============
+    Footer
+============= */
 footer {
   background-color: #2A3036;
   display: grid;
@@ -445,12 +448,24 @@ footer > div {
   }
 }
 footer > div #f1 h1 {
-  color: white;
+  color: #E0DFD5;
 }
-footer > div #f1 h2 {
-  color: white;
+footer > div #f1 section h2 {
+  color: #E0DFD5;
 }
-footer > div #f1 address {
+footer > div #f1 section address {
+  color: #C8C7BC;
+}
+footer > div #f1 section h2 {
+  color: #E0DFD5;
+}
+footer > div #f1 section Massachusetts {
+  color: #C8C7BC;
+}
+footer > div #f1 section h2 {
+  color: #E0DFD5;
+}
+footer > div #f1 section nova {
   color: #C8C7BC;
 }
 @media (min-width: 768px) {
@@ -458,11 +473,11 @@ footer > div #f1 address {
     grid-area: f2;
   }
 }
-footer > div #f2 h2 {
-  color: white;
+footer > div #f2 h1 {
+  color: #E0DFD5;
 }
-footer > div #f2 button {
-  background-color: #FFD205;
+footer > div #f2 input {
+  color: #2A3036;
 }
 @media (min-width: 768px) {
   footer > div #f3 {
@@ -470,7 +485,7 @@ footer > div #f2 button {
   }
 }
 footer > div #f3 h1 {
-  color: white;
+  color: #E0DFD5;
 }
 
 /* =============

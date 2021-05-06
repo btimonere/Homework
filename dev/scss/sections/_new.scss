@@ -59,6 +59,7 @@
             }
 
             #n1{
+                background-color: $star-light;
                 @include md{
                     grid-area: n1;
                 }

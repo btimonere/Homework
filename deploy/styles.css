@@ -508,6 +508,7 @@ footer > div {
     grid-template-columns: 50% auto;
   }
 }
+
 /* =============
     Planning
 ============= */
@@ -624,6 +625,9 @@ footer > div {
 }
 #new > div ul li section > div {
   grid-area: new-content;
+}
+#new > div ul #n1 {
+  background-color: #F8F9FA;
 }
 @media (min-width: 768px) {
   #new > div ul #n1 {

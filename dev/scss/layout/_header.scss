@@ -2,7 +2,7 @@
     Header
 ============= */
 header{
-    background-color: yellow;
+    background-color: $night-dark;
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". header .";

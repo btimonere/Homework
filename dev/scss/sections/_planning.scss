@@ -1,22 +1,37 @@
 /* =============
     Planning
 ============= */
-#planning{
+#planning {
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". planning .";
 
-    @include xl{
+    @include xl {
         grid-template-columns: auto 1000px auto;
     }
-    >div{
+
+    >div {
         grid-area: planning;
 
-        ul{
-            @include md{
+        ul {
+            @include md {
                 display: grid;
                 grid-template-columns: 50% auto;
                 gap: 16px;
+            }
+        }
+
+        #leftbox {
+            background-color: $frost-dark;
+            button{
+                background-color: $electric;
+            }
+        }
+
+        #rightbox {
+            background-color: $frost;
+            button{
+                background-color: $electric;
             }
         }
     }

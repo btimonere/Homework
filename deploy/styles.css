@@ -399,7 +399,7 @@ textarea {
     Header
 ============= */
 header {
-  background-color: yellow;
+  background-color: #2A3036;
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". header .";
@@ -412,6 +412,7 @@ header > div {
     Footer
 ============= */
 footer {
+  background-color: #2A3036;
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
@@ -443,10 +444,25 @@ footer > div {
     grid-area: f1;
   }
 }
+footer > div #f1 h1 {
+  color: white;
+}
+footer > div #f1 h2 {
+  color: white;
+}
+footer > div #f1 address {
+  color: #C8C7BC;
+}
 @media (min-width: 768px) {
   footer > div #f2 {
     grid-area: f2;
   }
+}
+footer > div #f2 h2 {
+  color: white;
+}
+footer > div #f2 button {
+  background-color: #FFD205;
 }
 @media (min-width: 768px) {
   footer > div #f3 {
@@ -508,6 +524,18 @@ footer > div {
     grid-template-columns: 50% auto;
   }
 }
+@media (min-width: 768px) {
+  #hero section #leftbar {
+    background-color: #E2BA06;
+    color: #2A3036;
+  }
+}
+@media (min-width: 768px) {
+  #hero section #rightbar {
+    background-color: #FFD205;
+    color: #2A3036;
+  }
+}
 
 /* =============
     Planning
@@ -531,6 +559,18 @@ footer > div {
     grid-template-columns: 50% auto;
     gap: 16px;
   }
+}
+#planning > div #leftbox {
+  background-color: #C8C7BC;
+}
+#planning > div #leftbox button {
+  background-color: #FFD205;
+}
+#planning > div #rightbox {
+  background-color: #E0DFD5;
+}
+#planning > div #rightbox button {
+  background-color: #FFD205;
 }
 
 /* =============
@@ -627,25 +667,55 @@ footer > div {
 #new > div ul li section > div {
   grid-area: new-content;
 }
+#new > div ul #n1 {
+  background-color: #F8F9FA;
+}
+#new > div ul #n1 button {
+  background-color: #FFD205;
+}
 @media (min-width: 768px) {
   #new > div ul #n1 {
     grid-area: n1;
   }
+}
+#new > div ul #n2 {
+  background-color: #F8F9FA;
+}
+#new > div ul #n2 button {
+  background-color: #FFD205;
 }
 @media (min-width: 768px) {
   #new > div ul #n2 {
     grid-area: n2;
   }
 }
+#new > div ul #n3 {
+  background-color: #F8F9FA;
+}
+#new > div ul #n3 button {
+  background-color: #FFD205;
+}
 @media (min-width: 768px) {
   #new > div ul #n3 {
     grid-area: n3;
   }
 }
+#new > div ul #n4 {
+  background-color: #F8F9FA;
+}
+#new > div ul #n4 button {
+  background-color: #FFD205;
+}
 @media (min-width: 768px) {
   #new > div ul #n4 {
     grid-area: n4;
   }
+}
+#new > div ul #n5 {
+  background-color: #F8F9FA;
+}
+#new > div ul #n5 button {
+  background-color: #FFD205;
 }
 @media (min-width: 768px) {
   #new > div ul #n5 {

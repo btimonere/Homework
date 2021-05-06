@@ -24,7 +24,17 @@
                 }
 
             }
+            #leftbar{
+                background-color: $electric-dark;
+                color: $night-dark;
+            }
+
+            #rightbar{
+                background-color: $electric;
+                color: $night-dark;
+            }
 
         }
+
     }
 }

@@ -63,6 +63,9 @@ footer {
             @include md {
                 grid-area: f3;
             }
+            h1{
+                color: white;
+            }
         }
     }
 }

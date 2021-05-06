@@ -469,6 +469,9 @@ footer > div #f2 button {
     grid-area: f3;
   }
 }
+footer > div #f3 h1 {
+  color: white;
+}
 
 /* =============
     Search

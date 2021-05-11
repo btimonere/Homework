@@ -13,6 +13,8 @@
         @include md{
             display: grid;
             grid-template-columns: 50% auto;
+            grid-template-areas: "h2-1 h2-2"
+            "h2-1 h2-2";
         }
 
         @include xl{
@@ -43,12 +45,6 @@
         #h2-2{
             @include xl{
                 grid-area: h2-2;
-            }
-        }
-
-        #h2-3{
-            @include xl{
-                grid-area: h2-3;
             }
         }
     }

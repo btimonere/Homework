@@ -372,6 +372,7 @@ ul li {
 ============= */
 button {
   cursor: pointer;
+  background-color: #FFD205;
 }
 
 /* =============
@@ -543,6 +544,21 @@ footer > div #f3 h1 {
   }
 }
 @media (min-width: 768px) {
+  #hero section h2 {
+    color: #2A3036;
+  }
+}
+@media (min-width: 768px) {
+  #hero section h5 {
+    color: #2A3036;
+  }
+}
+@media (min-width: 768px) {
+  #hero section p {
+    color: #2A3036;
+  }
+}
+@media (min-width: 768px) {
   #hero section #leftbar {
     background-color: #E2BA06;
     color: #2A3036;
@@ -605,6 +621,7 @@ footer > div #f3 h1 {
   #hero-2 ul {
     display: grid;
     grid-template-columns: 50% auto;
+    grid-template-areas: "h2-1 h2-2" "h2-1 h2-2";
   }
 }
 @media (min-width: 1200px) {
@@ -631,11 +648,6 @@ footer > div #f3 h1 {
     grid-area: h2-2;
   }
 }
-@media (min-width: 1200px) {
-  #hero-2 ul #h2-3 {
-    grid-area: h2-3;
-  }
-}
 
 /* =============
     New
@@ -657,7 +669,7 @@ footer > div #f3 h1 {
     grid-area: new;
   }
 }
-#new > div h1 {
+#new > div #new h1 {
   color: #637275;
 }
 @media (min-width: 768px) {

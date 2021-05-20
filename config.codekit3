@@ -181,12 +181,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/servic\/services 1.jpg" : {
+    "\/deploy\/img\/services\/services 1.jpg" : {
       "ft" : 16384,
       "iS" : 7832,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/servic\/services 1.jpg",
+      "oAP" : "\/deploy\/img\/services\/services 1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -194,12 +194,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/servic\/services 2.jpg" : {
+    "\/deploy\/img\/services\/services 2.jpg" : {
       "ft" : 16384,
       "iS" : 8957,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/servic\/services 2.jpg",
+      "oAP" : "\/deploy\/img\/services\/services 2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -207,12 +207,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/servic\/services 3.jpg" : {
+    "\/deploy\/img\/services\/services 3.jpg" : {
       "ft" : 16384,
       "iS" : 9693,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/servic\/services 3.jpg",
+      "oAP" : "\/deploy\/img\/services\/services 3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -486,15 +486,71 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/hero.scss" : {
+    "\/dev\/scss\/sections\/_cook.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/scss\/sections\/hero.css",
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_cook.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_recipes.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_recipes.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_services.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_services.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_why-us.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_why-us.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

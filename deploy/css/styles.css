@@ -385,3 +385,42 @@ textarea {
 /* =============
     Footer
 ============= */
+#cook {
+  display: grid;
+}
+
+#recipes {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". planning .";
+}
+@media (min-width: 1200px) {
+  #recipes {
+    grid-template-columns: auto 1000px auto;
+  }
+}
+#recipes > div {
+  grid-area: recipes;
+}
+@media (min-width: 768px) {
+  #recipes > div ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "d1 d1 d2 d2" ". d3 d3 .";
+    gap: 8px;
+  }
+  #recipes > div ul #d1 {
+    width: 267px;
+    height: 218px;
+  }
+}
+#recipes > div ul #d1 {
+  width: 267px;
+  height: 218px;
+}
+
+#services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: ". f1 .";
+}

@@ -7,10 +7,12 @@
             display: grid;
             grid-template-columns: 121px auto 121px;
             grid-template-areas: ". cook-content .";
+            justify-content: center;
 
         }
 
         @include lg {
+            display: grid;
             grid-template-columns: repeat(4, 1fr);
             grid-template-areas:
                 "n1 n1 n2 n2"

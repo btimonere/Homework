@@ -394,20 +394,31 @@ textarea {
     display: grid;
     grid-template-columns: 121px auto 121px;
     grid-template-areas: ". cook-content .";
+    justify-content: center;
   }
 }
 @media (min-width: 1024px) {
   #cook section {
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: "n1 n1 n2 n2" "n3 n3 n4 n4" "n5 n5 n6 n6";
   }
 }
 
+#hero {
+  display: grid;
+  justify-content: center;
+}
 #hero img {
   width: 100%;
   height: auto;
 }
 
+#recipes {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
 @media (min-width: 768px) {
   #recipes {
     display: grid;
@@ -416,10 +427,41 @@ textarea {
   }
 }
 
-#services .grid {
+#services {
   display: grid;
-  grid-template-columns: 3, 1fr;
-  grid-gap: 10px;
-  max-width: 269px;
-  grid-template-areas: "f1 f2 f3";
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #services .grid {
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    grid-gap: 124px;
+    max-width: 269px;
+    grid-template-areas: "f1 f2 f3";
+    align-items: center;
+  }
+}
+@media (min-width: 1024px) {
+  #services .grid {
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    grid-gap: 140px;
+    max-width: 269px;
+    grid-template-areas: "f1 f2 f3";
+  }
+}
+
+#why-us {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  #why-us {
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    grid-template-areas: "r1 r2 r3";
+    grid-gap: 140px;
+    max-width: 269px;
+  }
 }

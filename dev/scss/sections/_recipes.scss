@@ -1,4 +1,8 @@
-#recipes{
+#recipes {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+
     @include md {
         display: grid;
         grid-template-columns: 100px auto 100px;

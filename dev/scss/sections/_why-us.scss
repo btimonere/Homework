@@ -1,0 +1,14 @@
+#why-us{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+
+    @include lg{
+
+            display: grid;
+            grid-template-columns: 3, 1fr;
+            grid-template-areas: "r1 r2 r3";
+            grid-gap: 140px;
+            max-width: 269px;
+        }
+    }

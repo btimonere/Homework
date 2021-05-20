@@ -1,7 +1,28 @@
-#services .grid{
+#services {
     display: grid;
-    grid-template-columns: 3, 1fr;
-    grid-gap: 10px;
-    max-width: 269px;
-    grid-template-areas: "f1 f2 f3" ;
+    text-align: center;
+    
+
+    @include md {
+        .grid {
+            display: grid;
+            grid-template-columns: 3, 1fr;
+            grid-gap: 124px;
+            max-width: 269px;
+            grid-template-areas: "f1 f2 f3";
+            align-items: center;
+        }
+
+    }
+
+    @include lg {
+        .grid {
+            display: grid;
+            grid-template-columns: 3, 1fr;
+            grid-gap: 140px;
+            max-width: 269px;
+            grid-template-areas: "f1 f2 f3";
+        }
+
+    }
 }

@@ -1,4 +1,23 @@
-#cook{
+#cook {
     display: grid;
-    
+    justify-content: center;
+
+    section {
+        @include md {
+            display: grid;
+            grid-template-columns: 121px auto 121px;
+            grid-template-areas: ". cook-content .";
+
+        }
+
+        @include lg {
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-areas:
+                "n1 n1 n2 n2"
+                "n3 n3 n4 n4"
+                "n5 n5 n6 n6";
+        }
+
+
+    }
 }

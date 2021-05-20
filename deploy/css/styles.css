@@ -387,44 +387,39 @@ textarea {
 ============= */
 #cook {
   display: grid;
-}
-
-#hero {
-  width: auto;
-}
-
-#recipes {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". planning .";
-}
-@media (min-width: 1200px) {
-  #recipes {
-    grid-template-columns: auto 1000px auto;
-  }
-}
-#recipes > div {
-  grid-area: recipes;
+  justify-content: center;
 }
 @media (min-width: 768px) {
-  #recipes > div ul {
+  #cook section {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "d1 d1 d2 d2" ". d3 d3 .";
-    gap: 8px;
-  }
-  #recipes > div ul #d1 {
-    width: 267px;
-    height: 218px;
+    grid-template-columns: 121px auto 121px;
+    grid-template-areas: ". cook-content .";
   }
 }
-#recipes > div ul #d1 {
-  width: 267px;
-  height: 218px;
+@media (min-width: 1024px) {
+  #cook section {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "n1 n1 n2 n2" "n3 n3 n4 n4" "n5 n5 n6 n6";
+  }
 }
 
-#services {
+#hero img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  #recipes {
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-areas: ". recipes .";
+  }
+}
+
+#services .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: ". f1 .";
+  grid-template-columns: 3, 1fr;
+  grid-gap: 10px;
+  max-width: 269px;
+  grid-template-areas: "f1 f2 f3";
 }

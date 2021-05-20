@@ -389,6 +389,10 @@ textarea {
   display: grid;
 }
 
+#hero {
+  width: auto;
+}
+
 #recipes {
   display: grid;
   grid-template-columns: 16px auto 16px;

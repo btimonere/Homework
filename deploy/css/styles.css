@@ -382,6 +382,12 @@ textarea {
 /* =============
     Header
 ============= */
+#header {
+  height: 72px;
+  background-color: #742D11;
+  color: white;
+}
+
 /* =============
     Footer
 ============= */

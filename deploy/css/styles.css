@@ -394,6 +394,32 @@ textarea {
 #cook {
   display: grid;
   justify-content: center;
+  text-align: center;
+  grid-gap: 46px;
+}
+#cook #n1 {
+  background-color: #742D11;
+  color: white;
+}
+#cook #n2 {
+  background-color: #742D11;
+  color: white;
+}
+#cook #n3 {
+  background-color: #742D11;
+  color: white;
+}
+#cook #n4 {
+  background-color: #742D11;
+  color: white;
+}
+#cook #n5 {
+  background-color: #742D11;
+  color: white;
+}
+#cook #n6 {
+  background-color: #742D11;
+  color: white;
 }
 @media (min-width: 768px) {
   #cook section {
@@ -415,9 +441,8 @@ textarea {
   display: grid;
   justify-content: center;
 }
-#hero img {
-  width: 100%;
-  height: auto;
+#hero #h1 {
+  text-align: center;
 }
 
 #recipes {
@@ -461,6 +486,27 @@ textarea {
   display: grid;
   justify-content: center;
   text-align: center;
+}
+#why-us #teach {
+  color: white;
+  background-color: #742D11;
+}
+#why-us #staff {
+  color: white;
+  background-color: #742D11;
+}
+#why-us #easy {
+  color: white;
+  background-color: #742D11;
+}
+#why-us #r1 {
+  color: #255223;
+}
+#why-us #r2 {
+  color: #255223;
+}
+#why-us #r3 {
+  color: #255223;
 }
 @media (min-width: 1024px) {
   #why-us {

@@ -1,6 +1,42 @@
 #cook {
     display: grid;
     justify-content: center;
+    text-align: center;
+ grid-gap: 46px;
+
+    #n1{
+        background-color: $flesh-dark;
+        color: white;
+    }
+
+    #n2{
+        background-color: $flesh-dark;
+        color: white;
+    }
+
+
+    #n3{
+        background-color: $flesh-dark;
+        color: white;
+    }
+
+    #n4{
+        background-color: $flesh-dark;
+        color: white;
+    }
+
+
+    #n5{
+        background-color: $flesh-dark;
+        color: white;
+    }
+
+    #n6{
+        background-color: $flesh-dark;
+        color: white;
+    }
+
+
 
     section {
         @include md {
@@ -19,6 +55,7 @@
                 "n3 n3 n4 n4"
                 "n5 n5 n6 n6";
         }
+        
 
 
     }

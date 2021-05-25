@@ -3,6 +3,35 @@
     justify-content: center;
     text-align: center;
 
+       #teach{
+           color: white;
+        background-color: $flesh-dark;
+       }
+
+       #staff{
+        color: white;
+     background-color: $flesh-dark;
+    }
+
+    #easy{
+        color: white;
+     background-color: $flesh-dark;
+    }
+    #r1{
+        color: $mount-dark;
+    }
+
+    #r2{
+        color: $mount-dark;
+    }
+        
+    #r3{
+        color: $mount-dark;
+    }
+        
+        
+    
+
     @include lg{
 
             display: grid;

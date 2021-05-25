@@ -1,72 +1,75 @@
-#why-us{
+#why-us {
     display: grid;
     justify-content: center;
     text-align: center;
+    color: $flesh-dark;
 
-       #teach{
-           color: white;
+    #teach {
+        color: white;
         background-color: $flesh-dark;
-       }
+    }
 
-       #staff{
+    #staff {
         color: white;
-     background-color: $flesh-dark;
+        background-color: $flesh-dark;
     }
 
-    #easy{
+    #easy {
         color: white;
-     background-color: $flesh-dark;
+        background-color: $flesh-dark;
     }
-    #r1{
+
+    #r1 {
         color: $mount-dark;
     }
 
-    #r2{
-        color: $mount-dark;
-    }
-        
-    #r3{
+    #r2 {
         color: $mount-dark;
     }
 
-    @include md{
-        #teach{
+    #r3 {
+        color: $mount-dark;
+    }
+
+    @include md {
+        #teach {
             color: white;
-         background-color: $flesh-dark;
+            background-color: $flesh-dark;
         }
- 
-        #staff{
-         color: white;
-      background-color: $flesh-dark;
-     }
- 
-     #easy{
-         color: white;
-      background-color: $flesh-dark;
-     }
-     #r1{
-         color: $mount-dark;
-     }
- 
-     #r2{
-         color: $mount-dark;
-     }
-         
-     #r3{
-         color: $mount-dark;
-     }
+
+        #staff {
+            color: white;
+            background-color: $flesh-dark;
+        }
+
+        #easy {
+            color: white;
+            background-color: $flesh-dark;
+        }
+
+        #r1 {
+            color: $mount-dark;
+        }
+
+        #r2 {
+            color: $mount-dark;
+        }
+
+        #r3 {
+            color: $mount-dark;
+        }
 
     }
-        
-        
-    
 
-    @include lg{
 
-            display: grid;
-            grid-template-columns: 3, 1fr;
-            grid-template-areas: "r1 r2 r3";
-            grid-gap: 140px;
-            max-width: 269px;
-        }
+
+
+    @include lg {
+
+        display: grid;
+        grid-template-columns: 3, 1fr;
+        grid-template-areas: "r1 r2 r3";
+        grid-gap: 140px;
+        max-width: 269px;
     }
+}

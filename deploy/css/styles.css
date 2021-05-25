@@ -465,6 +465,14 @@ textarea {
   display: grid;
   text-align: center;
 }
+@media (min-width: 576px) {
+  #services #f1 {
+    display: none;
+  }
+  #services #f3 {
+    display: none;
+  }
+}
 @media (min-width: 768px) {
   #services .grid {
     display: grid;
@@ -489,6 +497,7 @@ textarea {
   display: grid;
   justify-content: center;
   text-align: center;
+  color: #742D11;
 }
 #why-us #teach {
   color: white;

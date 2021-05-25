@@ -1,6 +1,15 @@
 #services {
     display: grid;
     text-align: center;
+
+    @include sm{
+        #f1{
+            display: none;
+        }
+        #f3{
+            display: none;
+        }
+    }
     
 
     @include md {

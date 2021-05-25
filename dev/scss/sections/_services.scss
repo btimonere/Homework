@@ -1,16 +1,17 @@
 #services {
     display: grid;
     text-align: center;
+    color: $flesh-dark;
 
-    @include sm{
+
+
         #f1{
             display: none;
         }
         #f3{
             display: none;
         }
-    }
-    
+
 
     @include md {
         .grid {

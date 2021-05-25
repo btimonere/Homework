@@ -2,7 +2,6 @@
     display: grid;
     justify-content: center;
     text-align: center;
- grid-gap: 46px;
 
     #n1{
         background-color: $flesh-dark;
@@ -44,6 +43,8 @@
             grid-template-columns: 121px auto 121px;
             grid-template-areas: ". cook-content .";
             justify-content: center;
+            text-align: center;
+            
 
         }
 

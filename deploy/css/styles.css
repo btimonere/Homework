@@ -391,11 +391,16 @@ textarea {
 /* =============
     Footer
 ============= */
+#footer {
+  height: 72px;
+  background-color: #742D11;
+  color: white;
+}
+
 #cook {
   display: grid;
   justify-content: center;
   text-align: center;
-  grid-gap: 46px;
 }
 #cook #n1 {
   background-color: #742D11;
@@ -427,6 +432,7 @@ textarea {
     grid-template-columns: 121px auto 121px;
     grid-template-areas: ". cook-content .";
     justify-content: center;
+    text-align: center;
   }
 }
 @media (min-width: 1024px) {
@@ -452,6 +458,13 @@ textarea {
   display: grid;
   justify-content: center;
   text-align: center;
+  color: #742D11;
+}
+#recipes #d2 {
+  display: none;
+}
+#recipes #d3 {
+  display: none;
 }
 @media (min-width: 768px) {
   #recipes {
@@ -464,14 +477,13 @@ textarea {
 #services {
   display: grid;
   text-align: center;
+  color: #742D11;
 }
-@media (min-width: 576px) {
-  #services #f1 {
-    display: none;
-  }
-  #services #f3 {
-    display: none;
-  }
+#services #f1 {
+  display: none;
+}
+#services #f3 {
+  display: none;
 }
 @media (min-width: 768px) {
   #services .grid {

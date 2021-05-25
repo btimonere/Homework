@@ -2,6 +2,16 @@
     display: grid;
     justify-content: center;
     text-align: center;
+    color: $flesh-dark;
+
+
+        #d2{
+            display: none;
+        }
+        #d3{
+            display: none;
+
+    }
 
     @include md {
         display: grid;

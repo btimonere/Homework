@@ -441,6 +441,9 @@ textarea {
   display: grid;
   justify-content: center;
 }
+#hero img {
+  width: 100%;
+}
 #hero #h1 {
   text-align: center;
 }
@@ -507,6 +510,29 @@ textarea {
 }
 #why-us #r3 {
   color: #255223;
+}
+@media (min-width: 768px) {
+  #why-us #teach {
+    color: white;
+    background-color: #742D11;
+  }
+  #why-us #staff {
+    color: white;
+    background-color: #742D11;
+  }
+  #why-us #easy {
+    color: white;
+    background-color: #742D11;
+  }
+  #why-us #r1 {
+    color: #255223;
+  }
+  #why-us #r2 {
+    color: #255223;
+  }
+  #why-us #r3 {
+    color: #255223;
+  }
 }
 @media (min-width: 1024px) {
   #why-us {

@@ -1,13 +1,30 @@
 #hero{
-img{
-    width: 100%;
-}
+    background-image: url("../img/hero/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 98px;
+
+    @include md{
+        background-image: url("../img/hero/hero.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 340px;
+
+    }
+
+    @include lg{
+        background-image: url("../img/hero/hero.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 403px;
+
+    }
+
+
     display: grid;
     justify-content: center;
-
-    #h1{
-        text-align: center;
-    }
+    color: $flesh-dark;
+    text-align: center;
 }
 
 

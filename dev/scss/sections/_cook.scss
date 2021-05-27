@@ -2,32 +2,38 @@
     display: grid;
     justify-content: center;
     text-align: center;
+    color: $flesh-dark;
 
     #n1{
         background-color: $flesh-dark;
         color: white;
+        margin-bottom: 45px;
     }
 
     #n2{
         background-color: $flesh-dark;
         color: white;
+        margin-bottom: 45px;
     }
 
 
     #n3{
         background-color: $flesh-dark;
         color: white;
+        margin-bottom: 45px;
     }
 
     #n4{
         background-color: $flesh-dark;
         color: white;
+        margin-bottom: 45px;
     }
 
 
     #n5{
         background-color: $flesh-dark;
         color: white;
+        margin-bottom: 45px;
     }
 
     #n6{
@@ -37,27 +43,24 @@
 
 
 
-    section {
+
         @include md {
             display: grid;
-            grid-template-columns: 121px auto 121px;
             grid-template-areas: ". cook-content .";
             justify-content: center;
-            text-align: center;
-            
-
         }
 
         @include lg {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             grid-template-areas:
-                "n1 n1 n2 n2"
-                "n3 n3 n4 n4"
-                "n5 n5 n6 n6";
+                "n1 n2"
+                "n3 n4"
+                "n5 n6"
         }
         
 
 
-    }
+
+
 }

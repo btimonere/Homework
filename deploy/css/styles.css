@@ -361,21 +361,96 @@ template {
 h1 {
   font-family: "Poppins", sans-serif;
 }
+@media (min-width: 576px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 576px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 40px;
+  }
+}
 
 h2 {
   font-family: "Poppins", sans-serif;
+}
+@media (min-width: 576px) {
+  h2 {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 21px;
+  }
+}
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 21px;
+  }
 }
 
 h3 {
   font-family: "Poppins", sans-serif;
 }
+@media (min-width: 576px) {
+  h3 {
+    font-size: 21px;
+  }
+}
+@media (min-width: 768px) {
+  h3 {
+    font-size: 21px;
+  }
+}
+@media (min-width: 1024px) {
+  h3 {
+    font-size: 28px;
+  }
+}
 
 p {
   font-family: "PT Sans", sans-serif;
 }
+@media (min-width: 576px) {
+  p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  p {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1024px) {
+  p {
+    font-size: 18px;
+  }
+}
 
 li {
   font-family: "PT Sans", sans-serif;
+}
+@media (min-width: 576px) {
+  li {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  li {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  li {
+    font-size: 18px;
+  }
 }
 
 /* =============
@@ -512,6 +587,15 @@ textarea {
 @media (min-width: 768px) {
   #recipes {
     display: grid;
+    justify-content: center;
+    grid-template-columns: 100px auto 100px;
+    grid-template-areas: ". recipes .";
+  }
+}
+@media (min-width: 1024px) {
+  #recipes {
+    display: grid;
+    justify-content: center;
     grid-template-columns: 100px auto 100px;
     grid-template-areas: ". recipes .";
   }

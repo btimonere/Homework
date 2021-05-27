@@ -3,6 +3,7 @@
     background-position: center;
     background-size: cover;
     height: 98px;
+    
 
     @include md{
         background-image: url("../img/hero/hero.jpg");

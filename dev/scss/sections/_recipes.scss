@@ -15,6 +15,14 @@
 
     @include md {
         display: grid;
+        justify-content: center;
+        grid-template-columns: 100px auto 100px;
+        grid-template-areas: ". recipes .";
+    }
+
+    @include lg {
+        display: grid;
+        justify-content: center;
         grid-template-columns: 100px auto 100px;
         grid-template-areas: ". recipes .";
     }

@@ -3,19 +3,77 @@
 ============= */
 h1{
     font-family: 'Poppins', sans-serif;
+    @include sm{
+        font-size: 24px;
+    }
+
+    @include sm{
+        font-size: 32px;
+    }
+
+    @include lg{
+        font-size: 40px;
+    }
+
 }
 
 h2{
     font-family: 'Poppins', sans-serif;
+
+    @include sm{
+        font-size: 18px;
+    }
+    @include md{
+        font-size: 21px;
+    }
+    @include lg{
+        font-size: 21px;
+    }
 }
 
 h3{
     font-family: 'Poppins', sans-serif;  
+
+        @include sm{
+        font-size: 21px;
+    }
+
+    @include md{
+        font-size: 21px;
+    }
+
+    @include lg{
+        font-size: 28px;
+    }
+
+
 }
 
 p{
     font-family: 'PT Sans', sans-serif;
+    @include sm{
+        font-size: 16px;
+    }
+
+    @include md{
+        font-size: 18px;
+}
+
+@include lg{
+    font-size: 18px;
+}
 }
 li{
     font-family: 'PT Sans', sans-serif;
+    @include sm{
+        font-size: 16px;
+    }
+
+    @include md{
+        font-size: 16px;
+    }
+
+    @include lg{
+        font-size: 18px;
+    }
 }

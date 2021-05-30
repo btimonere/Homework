@@ -3,6 +3,7 @@
     justify-content: center;
     text-align: center;
     color: $flesh-dark;
+    margin: 8px;
 
     #teach {
         color: white;
@@ -32,6 +33,7 @@
     }
 
     @include md {
+        margin: 182px;
   
         #teach {
             color: white;
@@ -69,14 +71,22 @@
 
         background-color: $burn-light;
         display: grid;
-        grid-template-columns: 3, 1fr;
+        grid-template-columns: repeat(3, 1fr);
         grid-template-areas:
         "r1 r2 r3";
         grid-gap: 140px;
+        margin: 42px;
 
-        #h1{    
-            text-align: center;
-            color: $flesh-dark; 
+        #r1{
+            max-width: 300px;
+        }
+
+        #r2{
+            max-width: 300px;
+        }
+
+        #r3{
+            max-width: 300px;
         }
     }
 }

@@ -52,7 +52,6 @@
 
         @include lg {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
             grid-template-areas:
                 "n1 n2"
                 "n3 n4"

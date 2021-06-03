@@ -606,8 +606,8 @@ textarea {
   color: #742D11;
 }
 @media (min-width: 576px) {
-  #services .grid #f1 {
-    display: none;
+  #services #f1 {
+    display: none !important;
   }
   #services #f3 {
     display: none;
@@ -691,7 +691,7 @@ textarea {
     background-color: #E6CBC7;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "r1 r2 r3";
+    grid-template-areas: ". p1 ." "r1 r2 r3";
     grid-gap: 140px;
     margin: 42px;
   }

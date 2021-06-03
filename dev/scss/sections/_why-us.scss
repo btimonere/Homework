@@ -73,6 +73,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-areas:
+        ". p1 ."
         "r1 r2 r3";
         grid-gap: 140px;
         margin: 42px;

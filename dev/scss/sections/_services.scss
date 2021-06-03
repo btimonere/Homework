@@ -5,10 +5,11 @@
 
 
 @include sm{
-    .grid
+    
 
         #f1{
-            display: none;
+            display: none !important;
+            
         }
         #f3{
             display: none;

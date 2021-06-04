@@ -517,7 +517,7 @@ textarea {
   grid-area: burger;
   font-size: 3.75rem;
   color: yellow;
-  margin-bottom: -60px;
+  margin-bottom: 60px;
 }
 @media (min-width: 768px) {
   #navigation #burger_container {

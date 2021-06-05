@@ -528,7 +528,7 @@ textarea {
   grid-area: nav;
   display: none;
   margin-top: 60px;
-  background-color: yellow;
+  background-color: #E6CBC7;
   font-family: "poppins", sans-serif;
   font-weight: 700;
   padding: 20px;
@@ -561,7 +561,7 @@ textarea {
 @media (min-width: 768px) {
   #navigation #nav_container {
     display: block !important;
-    background-color: yellow;
+    background-color: #E6CBC7;
     color: #fff;
     font-family: "poppins", sans-serif;
     font-weight: 700;
@@ -671,24 +671,27 @@ textarea {
   text-align: center;
   color: #742D11;
 }
+#recipes #d1 {
+  grid-area: "d1";
+}
 #recipes #d2 {
-  display: none;
+  grid-area: "d2";
 }
 #recipes #d3 {
-  display: none;
+  grid-area: "d3";
 }
 @media (min-width: 768px) {
   #recipes {
     display: grid;
     justify-content: center;
-    grid-template-columns: 100px auto 100px;
-    grid-template-areas: ". recipes .";
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". d1 d1 d2 d2 ." ". . d3 d3 . .";
   }
 }
 @media (min-width: 1024px) {
   #recipes {
     display: grid;
-    grid-template-columns: 100px auto 100px;
+    grid-template-columns: 32px auto 32px;
     grid-template-areas: ". recipes .";
   }
 }

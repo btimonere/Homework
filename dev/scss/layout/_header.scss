@@ -28,7 +28,7 @@
         grid-area: nav;
         display: none;
         margin-top: 60px;
-        background-color: yellow;
+        background-color: $burn-light;
         font-family: 'poppins', sans-serif;
         font-weight: 700;
         padding: 20px;
@@ -61,7 +61,7 @@
 
         @include md {
             display: block !important;
-            background-color: yellow;
+            background-color: $burn-light;
             color: $white;
             font-family: 'poppins', sans-serif;
             font-weight: 700;

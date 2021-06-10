@@ -1,82 +1,81 @@
 /* =============
     Header
 ============= */
-#navigation {
-    display: grid;
-    grid-template-columns: 16px auto 60%;
-    grid-template-areas: ". burger ."
-        ". nav .";
+header{
+    background-color: $flesh-dark;
+    color: white;
 
-        @include md{
-            grid-template-columns: 100%;
-            grid-template-areas: "nav";
-        }
-
-    #burger_container {
-        grid-area: burger;
-        font-size: rem-calc(60);
-        color: yellow;
-        margin-bottom: 60px;
-        
-
-        @include md {
-            display: none !important;
-        }
-    }
-
-    #nav_container {
-        grid-area: nav;
-        display: none;
-        margin-top: 60px;
-        background-color: $burn-light;
-        font-family: 'poppins', sans-serif;
-        font-weight: 700;
-        padding: 20px;
-        margin-bottom: 10px;
-        
-
-        ul {
-            height: 100%;
-            li {
-
-                padding: 9px 0px;
-                a:link,
-                a:visited {
-                    color: black;
-                    padding: 0px 0px;
-                    text-decoration: none;
-                    transition: 0.25s;
+    #navigation {
+        display: grid;
+        grid-template-columns: 16px auto 60%;
+        grid-template-areas: ". burger ."
+            ". nav .";
     
-                    @include lg {
-                        color: black;
-                    }
+            @include md{
+                grid-template-columns: 100%;
+                grid-template-areas: "nav";
+            }
     
-                    &:hover,
-                    &:active {
-                        color: white;
-                    }
-                }
+        #burger_container {
+            grid-area: burger;
+            font-size: rem-calc(60);
+            color: white;
+            margin-bottom: 60px;
+            
+    
+            @include md {
+                display: none !important;
             }
         }
-
-        @include md {
-            display: block !important;
+    
+        #nav_container {
+            grid-area: nav;
+            display: none;
+            margin-top: 60px;
             background-color: $burn-light;
-            color: $white;
             font-family: 'poppins', sans-serif;
             font-weight: 700;
             padding: 20px;
+            margin-bottom: 10px;
             
-            >ul {
-                display: flex;
-                justify-content: space-evenly;
+    
+            ul {
+                height: 100%;
+                li {
+                    padding: 9px 0px;
+                    a:link,
+                    a:visited {
+                        color: black;
+                        padding: 0px 0px;
+                        text-decoration: none;
+                        transition: 0.25s;
+        
+                        @include lg {
+                            color: black;
+                        }
+        
+                        &:hover,
+                        &:active {
+                            color: white;
+                        }
+                    }
+                }
+            }
+    
+            @include md {
+                display: block !important;
+                background-color: $burn-light;
+                color: $white;
+                font-family: 'poppins', sans-serif;
+                font-weight: 700;
+                padding: 20px;
+                
+                >ul {
+                    display: flex;
+                    justify-content: space-evenly;
+                }
             }
         }
     }
-}
-#header{
-    height: 72px;
-    background-color: $flesh-dark;
-    color: white;
 }
 

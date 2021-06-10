@@ -65,29 +65,30 @@
     }
 
 
+    .whyus{
+        @include lg {
 
-
-    @include lg {
-
-        background-color: $burn-light;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-areas:
-        ". p1 ."
-        "r1 r2 r3";
-        grid-gap: 140px;
-        margin: 42px;
-
-        #r1{
-            max-width: 300px;
-        }
-
-        #r2{
-            max-width: 300px;
-        }
-
-        #r3{
-            max-width: 300px;
+            background-color: $burn-light;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas:
+            ". p1 ."
+            "r1 r2 r3";
+            grid-gap: 140px;
+            margin: 42px;
+            
+    
+            #r1{
+                max-width: 300px;
+            }
+    
+            #r2{
+                max-width: 300px;
+            }
+    
+            #r3{
+                max-width: 300px;
+            }
         }
     }
 }

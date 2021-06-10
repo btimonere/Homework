@@ -52,6 +52,7 @@
 
         @include lg {
             display: grid;
+            grid-template-areas: ". cook-content .";
             grid-template-areas:
                 "n1 n2"
                 "n3 n4"

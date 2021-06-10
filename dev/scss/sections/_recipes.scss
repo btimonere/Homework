@@ -4,29 +4,36 @@
     text-align: center;
     color: $flesh-dark;
 
-    #d1{
-        grid-area: "d1";
+    .salmon{
+        background-size: cover;
+    }
 
+    #d1{
+        grid-area: "d1"
 }
         #d2{
             grid-area: "d2";
         }
         #d3{
             grid-area: "d3";
-
     }
 
     @include md {
-        display: grid;
         justify-content: center;
-        grid-template-columns: 16px auto 16px;
-        grid-template-areas: ". d1 d1 d2 d2 ."
-        ". . d3 d3 . .";
+#d2{
+    display: none;
+}
+
     }
 
     @include lg {
-        display: grid;
-        grid-template-columns: 32px auto 32px;
-        grid-template-areas: ". recipes .";
+justify-content: center
+
+#d2{
+    display: none;
+}
+#d3{
+    display: none;
+}
     }
 }

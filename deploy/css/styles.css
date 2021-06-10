@@ -502,29 +502,33 @@ textarea {
 /* =============
     Header
 ============= */
-#navigation {
+header {
+  background-color: #742D11;
+  color: white;
+}
+header #navigation {
   display: grid;
   grid-template-columns: 16px auto 60%;
   grid-template-areas: ". burger ." ". nav .";
 }
 @media (min-width: 768px) {
-  #navigation {
+  header #navigation {
     grid-template-columns: 100%;
     grid-template-areas: "nav";
   }
 }
-#navigation #burger_container {
+header #navigation #burger_container {
   grid-area: burger;
   font-size: 3.75rem;
-  color: yellow;
+  color: white;
   margin-bottom: 60px;
 }
 @media (min-width: 768px) {
-  #navigation #burger_container {
+  header #navigation #burger_container {
     display: none !important;
   }
 }
-#navigation #nav_container {
+header #navigation #nav_container {
   grid-area: nav;
   display: none;
   margin-top: 60px;
@@ -534,32 +538,32 @@ textarea {
   padding: 20px;
   margin-bottom: 10px;
 }
-#navigation #nav_container ul {
+header #navigation #nav_container ul {
   height: 100%;
 }
-#navigation #nav_container ul li {
+header #navigation #nav_container ul li {
   padding: 9px 0px;
 }
-#navigation #nav_container ul li a:link,
-#navigation #nav_container ul li a:visited {
+header #navigation #nav_container ul li a:link,
+header #navigation #nav_container ul li a:visited {
   color: black;
   padding: 0px 0px;
   text-decoration: none;
   transition: 0.25s;
 }
 @media (min-width: 1024px) {
-  #navigation #nav_container ul li a:link,
-#navigation #nav_container ul li a:visited {
+  header #navigation #nav_container ul li a:link,
+header #navigation #nav_container ul li a:visited {
     color: black;
   }
 }
-#navigation #nav_container ul li a:link:hover, #navigation #nav_container ul li a:link:active,
-#navigation #nav_container ul li a:visited:hover,
-#navigation #nav_container ul li a:visited:active {
+header #navigation #nav_container ul li a:link:hover, header #navigation #nav_container ul li a:link:active,
+header #navigation #nav_container ul li a:visited:hover,
+header #navigation #nav_container ul li a:visited:active {
   color: white;
 }
 @media (min-width: 768px) {
-  #navigation #nav_container {
+  header #navigation #nav_container {
     display: block !important;
     background-color: #E6CBC7;
     color: #fff;
@@ -567,16 +571,10 @@ textarea {
     font-weight: 700;
     padding: 20px;
   }
-  #navigation #nav_container > ul {
+  header #navigation #nav_container > ul {
     display: flex;
     justify-content: space-evenly;
   }
-}
-
-#header {
-  height: 72px;
-  background-color: #742D11;
-  color: white;
 }
 
 /* =============
@@ -633,11 +631,13 @@ textarea {
 @media (min-width: 1024px) {
   #cook {
     display: grid;
+    grid-template-areas: ". cook-content .";
     grid-template-areas: "n1 n2" "n3 n4" "n5 n6";
   }
 }
 
 #hero {
+  margin-top: 80px;
   background-image: url("../img/hero/hero.jpg");
   background-position: center;
   background-size: cover;
@@ -655,6 +655,9 @@ textarea {
     background-size: cover;
     height: 340px;
   }
+  #hero #start {
+    margin-top: 100px;
+  }
 }
 @media (min-width: 1024px) {
   #hero {
@@ -663,6 +666,9 @@ textarea {
     background-size: cover;
     height: 403px;
   }
+  #hero #start {
+    margin-top: 150px;
+  }
 }
 
 #recipes {
@@ -670,6 +676,9 @@ textarea {
   justify-content: center;
   text-align: center;
   color: #742D11;
+}
+#recipes .salmon {
+  background-size: cover;
 }
 #recipes #d1 {
   grid-area: "d1";
@@ -682,17 +691,19 @@ textarea {
 }
 @media (min-width: 768px) {
   #recipes {
-    display: grid;
     justify-content: center;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". d1 d1 d2 d2 ." ". . d3 d3 . .";
+  }
+  #recipes #d2 {
+    display: none;
   }
 }
 @media (min-width: 1024px) {
   #recipes {
-    display: grid;
-    grid-template-columns: 32px auto 32px;
-    grid-template-areas: ". recipes .";
+    justify-content: center #d2;
+    justify-content-display: none;
+  }
+  #recipes #d3 {
+    display: none;
   }
 }
 
@@ -701,30 +712,12 @@ textarea {
   text-align: center;
   color: #742D11;
 }
-@media (min-width: 576px) {
-  #services #f1 {
-    display: none !important;
-  }
-  #services #f3 {
-    display: none;
-  }
-}
 @media (min-width: 768px) {
   #services .grid {
     display: grid;
-    grid-template-columns: 3, 1fr;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 124px;
-    max-width: 269px;
-    grid-template-areas: "f1 f2 f3";
-  }
-}
-@media (min-width: 1024px) {
-  #services .grid {
-    display: grid;
-    grid-template-columns: 3, 1fr;
-    grid-gap: 140px;
-    max-width: 269px;
-    grid-template-areas: "f1 f2 f3";
   }
 }
 
@@ -783,7 +776,7 @@ textarea {
   }
 }
 @media (min-width: 1024px) {
-  #why-us {
+  #why-us .whyus {
     background-color: #E6CBC7;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -791,13 +784,13 @@ textarea {
     grid-gap: 140px;
     margin: 42px;
   }
-  #why-us #r1 {
+  #why-us .whyus #r1 {
     max-width: 300px;
   }
-  #why-us #r2 {
+  #why-us .whyus #r2 {
     max-width: 300px;
   }
-  #why-us #r3 {
+  #why-us .whyus #r3 {
     max-width: 300px;
   }
 }

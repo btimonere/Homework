@@ -4,38 +4,15 @@
     color: $flesh-dark;
 
 
-@include sm{
-    
 
-        #f1{
-            display: none !important;
-            
-        }
-        #f3{
-            display: none;
-        }
-    }
 
 
     @include md {
         .grid {
             display: grid;
-            grid-template-columns: 3, 1fr;
+            justify-content: center;
+            grid-template-columns:  repeat(3, 1fr);
             grid-gap: 124px;
-            max-width: 269px;
-            grid-template-areas: "f1 f2 f3";
         }
-
-    }
-
-    @include lg {
-        .grid {
-            display: grid;
-            grid-template-columns: 3, 1fr;
-            grid-gap: 140px;
-            max-width: 269px;
-            grid-template-areas: "f1 f2 f3";
-        }
-
     }
 }

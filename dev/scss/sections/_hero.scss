@@ -1,16 +1,22 @@
 #hero{
+    margin-top: 80px;
     background-image: url("../img/hero/hero.jpg");
     background-position: center;
     background-size: cover;
     height: 98px;
     text-align: center;
-    
+
+
 
     @include md{
         background-image: url("../img/hero/hero.jpg");
         background-position: center;
         background-size: cover;
         height: 340px;
+
+        #start{
+            margin-top: 100px;
+        }
 
     }
 
@@ -19,6 +25,11 @@
         background-position: center;
         background-size: cover;
         height: 403px;
+
+        #start{
+            margin-top: 150px;
+        }
+
 
     }
 
